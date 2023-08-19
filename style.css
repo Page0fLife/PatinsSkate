@@ -3,25 +3,40 @@
 		<title></title>
 		<style type="text/css">
 			body{
-				background-color: #78CFE5;
+				background-color: #F5FFFA;
 			}
 			.titulo{
 				font-size: 5rem;
-				color: #FE01DC;
+				color: #6495ED;
 				text-align: center;
 				font: Courier New;
 			}
+			.body{
+				font-size: 3rem;
+				color: #C71585;
+				font: Georgia;
+			}
 			.patins{
 				font-size: 3rem;
-				color: #FE0101;
-				text-align: right;
+				color: #6495ED;
 				font: Georgia;
 			}
 			.skates{
 				font-size: 3rem;
-				color: #FE0101;
-				text-align: left;
+				color: #C71585;
 				font: Georgia;
+			}
+			.patinspagina{
+				font-size: 4rem;
+				color: #6495ED;
+				font: Georgia;
+				text-align: center;
+			}
+			.patinscadastro{
+				font-size: 3rem;
+				color: #6495ED;
+				font: Georgia;
+				text-align: left;
 			}
 			#patinsbutton{
 				color: seagreen;
