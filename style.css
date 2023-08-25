@@ -73,3 +73,6 @@ body{
 	font-size: 2rem;
 	font-family: 'Brush Script MT', cursive;
 }
+#finishpatins tr:hover {
+	background-color: #ff00b3
+}
