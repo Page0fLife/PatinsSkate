@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fun Wheels</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<center>
+<table width="40%" border="1" cellspacing="10" cellpadding="10" bgcolor="purple" id="finishpatins">
+    <caption><b><h1 class="body">Dados</h1></b></caption>
+    <tr align="center" bgcolor="black">
+        <td>Nome</td> <td><input type="name"></td>
+    </tr>
+    <tr align="center" bgcolor="blue">
+        <td>Endereço</td> <td><input type="endereço"></td>
+    </tr>
+    <tr align="center" bgcolor="orange">
+        <td>CEP</td> <td><form><label for="CEP"><input name="CEP" id="CEP" required pattern= "\d{5}-?\d{3}" /></label></form></td>
+    </tr>
+    <tr align="center" bgcolor="green">
+        <td>Dia e horário</td><td><input type="datetime-local"></td>
+    </tr>
+
+</table>
+<p></p>
+<input type="submit" value="Enviar" />
+
+</center>
+</html>
